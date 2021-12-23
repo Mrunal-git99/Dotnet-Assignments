@@ -1,0 +1,14 @@
+<div>
+    <h2>Division Pipe</h2>
+  
+    <p>Dividend</p>
+    <input type="number" [(ngModel)]="a" />
+  
+    <p>Divisor</p>
+    <input type="number" [(ngModel)]='b' />
+  
+    <p>Dividend:{{a}}</p>
+    <p>Divisor:{{b}}</p>
+  
+    <p>Divison Result: {{a | divsionPipe: b}}</p>
+  </div>
